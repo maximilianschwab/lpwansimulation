@@ -23,14 +23,14 @@ nrofpackets = 1;
 %        07 5478  36;
 %        06 9375 21];
 
-%On air time according to LoRaWAN regional parameters
-lora_duration = [12  250 800; 
-        11  440 455;
-        10  980 204;
-        09 1760 114;
+%On 
+lora_duration = [12  293 682; 
+        11  547 365;
+        10  976 204;
+        09 1757 113;
         08 3125  64;
-        07 5470  37;
-        06 11000 18];
+        07 5478  36;
+        06 9375 21];
 
 
 packetduration = lora_duration(:,3);
